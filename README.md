@@ -154,9 +154,6 @@ SecurityEvent
 This type of query helps a SOC analyst identify accounts and source addresses associated with repeated failed authentication attempts.
 
 
-## 9. Microsoft Sentinel Analytics Rule
-
-
 ...
 
 
