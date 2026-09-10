@@ -140,7 +140,7 @@ Example KQL query:
 SecurityEvent
 | where EventID == 4625
 | summarize FailedAttempts = count() by Account, IpAddress
-| order by FailedAttempts desc...
+| order by FailedAttempts desc
 
 
 ...
