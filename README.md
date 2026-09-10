@@ -141,14 +141,6 @@ SecurityEvent
 | where EventID == 4625
 | summarize FailedAttempts = count() by Account, IpAddress
 | order by FailedAttempts desc
-...
-### Example KQL Query
-
-```kql
-SecurityEvent
-| where EventID == 4625
-| summarize FailedAttempts = count() by Account, IpAddress
-| order by FailedAttempts desc
 ```
 
 This type of query helps a SOC analyst identify accounts and source addresses associated with repeated failed authentication attempts.
