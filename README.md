@@ -142,6 +142,9 @@ SecurityEvent
 | summarize FailedAttempts = count() by Account, IpAddress
 | order by FailedAttempts desc
 
+...
+
+
 ## 9. Microsoft Sentinel Analytics Rule
 
 A scheduled analytics rule named **Potential Brute Force - Failed Logins** was created to detect multiple Windows failed-login attempts.
